@@ -1,0 +1,22 @@
+{
+  "name": "module-test",
+  "version": "1.0.0",
+  "description": "module test repo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanLeverenz/MODULE-TEST.git"
+  },
+  "author": "Alan Leverenz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlanLeverenz/MODULE-TEST/issues"
+  },
+  "homepage": "https://github.com/AlanLeverenz/MODULE-TEST#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
