@@ -1,4 +1,4 @@
-const chain = require('./yourid');
+const chain = require('./famid');
 
 const famfunc = () => {
   return console.log(
