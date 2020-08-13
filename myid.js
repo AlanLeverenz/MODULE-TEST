@@ -1,3 +1,6 @@
-const myid = '12335';
+const ids = {
+  myid: '12345',
+  yourid: '54321',
+};
 
-export default myid;
+exports.ids = ids;

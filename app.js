@@ -1,8 +1,7 @@
-require('dotenv').config();
+const keys = require('./myid');
 
-const myid = () => {
-  let id = process.env.MY_ID;
-  return console.log(`My ID is: ${id}`);
+const myidfunc = () => {
+  return console.log('myid: ' + keys.ids.myid + ', yourid: ' + keys.ids.yourid);
 };
 
-myid();
+myidfunc();
